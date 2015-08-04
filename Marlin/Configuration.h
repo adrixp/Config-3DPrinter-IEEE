@@ -144,7 +144,7 @@ Here are some standard links for getting your machine calibrated:
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 270
+#define HEATER_0_MAXTEMP 290
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define BED_MAXTEMP 130
@@ -181,9 +181,9 @@ Here are some standard links for getting your machine calibrated:
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // Ultimaker
-    #define  DEFAULT_Kp 26.15
-    #define  DEFAULT_Ki 2.00
-    #define  DEFAULT_Kd 85.48
+    #define  DEFAULT_Kp 41.76
+    #define  DEFAULT_Ki 4.01
+    #define  DEFAULT_Kd 108.78
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
@@ -512,7 +512,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {82.47,80,4000,845.21}  // default steps per unit for Ultimaker el 4000 depende de la varilla del eje z, para metrica 5 4000 para metrica 8 2560
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {82.47,82,4000,720}  // default steps per unit for Ultimaker el 4000 depende de la varilla del eje z, para metrica 5 4000 para metrica 8 2560
 
 //extrusor: 777.6/107  
 //777.6 es la base
@@ -565,7 +565,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define PLA_PREHEAT_HPB_TEMP 70
 #define PLA_PREHEAT_FAN_SPEED 255   // Insert Value between 0 and 255
 
-#define ABS_PREHEAT_HOTEND_TEMP 240
+#define ABS_PREHEAT_HOTEND_TEMP 270
 #define ABS_PREHEAT_HPB_TEMP 90
 #define ABS_PREHEAT_FAN_SPEED 150   // Insert Value between 0 and 255
 
