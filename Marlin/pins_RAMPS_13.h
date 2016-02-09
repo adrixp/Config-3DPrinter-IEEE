@@ -96,8 +96,8 @@
 
 #define HEATER_2_PIN       -1
 
-#define TEMP_0_PIN         13   // ANALOG NUMBERING
-#define TEMP_1_PIN         15   // ANALOG NUMBERING
+#define TEMP_0_PIN         15   // ANALOG NUMBERING
+#define TEMP_1_PIN         13   // ANALOG NUMBERING
 #define TEMP_2_PIN         -1   // ANALOG NUMBERING
 
 #if MB(RAMPS_13_EFF) || MB(RAMPS_13_EEF)
